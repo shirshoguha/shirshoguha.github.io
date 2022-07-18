@@ -1,0 +1,27 @@
+#home-section {
+    background-image: url(https://cdn.pixabay.com/photo/2022/07/07/14/00/otter-7307280__340.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    float: right;
+    height: 345px;
+}
+
+#fa {
+    height: 250px;
+    width: 300px;
+}
+
+#whf {
+    height: 250px;
+    width: 300px;
+}
+
+#dwd {
+    height: 250px;
+    width: 300px;
+}
