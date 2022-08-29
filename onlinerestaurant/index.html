@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP CSS LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- FONTAWSOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Online Restaurants</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a href="#" class="navbar-brand text-white"><strong>Chilli's</strong></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active text-center">
+                        <a href="#" class="nav-link text-white p-2" data-target="#home"><i class="fa fa-home fa-2x"
+                                aria-hidden="true"></i></a><!-- HOME -->
+                    </li>
+                    <li class="nav-item active text-center">
+                        <a href="#" class="nav-link text-white p-2" data-target="#listing"><i class="fa fa-list-alt fa-2x"
+                                aria-hidden="true"></i></a> <!-- LISTINGS -->
+                    </li>
+                    <li class="nav-item active text-center">
+                        <a href="#" class="nav-link text-white p-2" data-target="#menu"><i class="fa fa-cutlery fa-2x"
+                                aria-hidden="true"></i></a> <!-- MENU -->
+                    </li>
+                    <li class="nav-item active text-center">
+                        <a href="#" class="nav-link text-white p-2" data-target=""><i class="fa fa- fa-2x"
+                                aria-hidden="true"></i></a> <!-- CONTACT -->
+                    </li>
+                    <li class="nav-item active text-center">
+                        <a href="#" id="contact-form" class="nav-link text-danger p-2" data-target=""><i
+                                class="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="" style="background: linear-gradient(#03001e, #7303c0, #ec38bc, #fdeff9); height: auto; width: auto;">
+        <!-- HOME -->
+        <div>
+            <div class="container text-center p-3" id="home">
+                <h3 class="text-white py-2 jumbotron text-dark bg-info">Welcome To Chilli's</h3>
+                <div class="row">
+                    <div class="col-6 py-2">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784__340.jpg" alt=""
+                            width="600" class="img-thumbnail">
+                    </div>
+                    <div class="col-6 m-auto py-5">
+                        <button class="bg-danger p-3"><strong>Book A Table Now!</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LISTING -->
+        <div class="container mt-5" id="listing">
+            <div class="row">
+                <div class="col-6 mx-auto text-center">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2015/09/19/16/19/birthday-947438__340.jpg"
+                                    alt="Birthday">
+                                    <button class="btn text-danger btn btn-outline-danger"><strong>Book A Birthday Party</strong></button>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/08/03/21/48/drinks-2578446__340.jpg"
+                                    alt="Event">
+                                    <button class="btn text-danger btn btn-outline-danger"><strong>Book A Party!</strong></button>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/04/26/08/00/wedding-1353829__340.jpg"
+                                    alt="Anniversary">
+                                    <button class="btn text-danger btn btn-outline-danger"><strong>Book An Anniversary</strong></button>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- MENU -->
+        <!-- 3 IMAGES -->
+        <div class="container" id="menu">
+            <div class="row my-4 d-flex justify-content-around">
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032__340.jpg"
+                        alt="" class="img-thumbnail" style="height: 240px;">
+                    <p class="p-2"><strong>Salmon</strong></p>
+                    <hr>
+                    <p>A Salmon is any of seven different species in the Salmoninae subfamily. The seven species are the Pink, Chum, Koho, Masu, Chinook, Sockeye, and Atlantic. Close relatives include whitefish, trout, grayling, and char. You have a wide range of selection to choose when you arrive at Chilli's. Wet take our salmon from the freshest markets and has been the main cuisine of Chilli's for 8 years since we opened.</p>
+                </div>
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2019/05/26/20/10/meat-4231141__340.jpg"
+                        alt="" class="img-thumbnail">
+                    <p class="p-2"><strong>Grilled chicken</strong></p>
+                    <hr>
+                    <p>Chicken is one of the easiest and tastiest meats to prepare on your grill. A brine or seasoned marinade is the key to juicy, flavorful chicken. Our best grilled chicken are jam-packed with flavor, and any one of them will surely be a hit at your next party, birthday party or anniversary. When looking for ways to cook perfect chicken on the grill, look no further than these tasty, creative items on our menu jerk chicken, grilled chicken Caprese, chicken sandwiches.</p>
+                </div>
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011__340.jpg"
+                        alt="" class="img-thumbnail">
+                    <p class="p-2"><strong>Chocolate Cake</strong></p>
+                    <hr>
+                    <p>We are famously known for our Chocolate Cake which only has 325 calories a slice and if you want you can take seconds, we have made a chocolate cake smoothie which is divine and everyone would love to know the recipe of but it is a secret! We have a sweet creamy texture but dont use more than 45 grams of fat.</p>
+                </div>
+<!-- NEXT LINE -->
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/23/15/36/eat-2002918__340.jpg"
+                        alt="" class="img-thumbnail" style="height: 240px;">
+                    <p class="p-2"><strong>Steak</strong></p>
+                    <hr>
+                    <p>A Steak is supposed to be having a special way of cooking it such as Blue, Rare, Medium Rare, Medium, Medium Well, Well Done. And we have been perfecting these in the past 4 years making some of the most juciest and most delicious steak and if you see it, it will make your mouth start watering, on weekends we have a special steak, where we give you a Medium Well steak with falkes of gold on it at the price of a Rare steak.</p>
+                </div>
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/08/07/37/eat-1033210__340.jpg"
+                        alt="" class="img-thumbnail">
+                    <p class="p-2"><strong>Salad</strong></p>
+                    <hr>
+                    <p>A good salad doesnt mean just throwing some vegetables on and a few fruits with olive oil, although we have this option for meat lovers we have a chicen and salad combo which has only 450 calories more than a normal salad. We have another style of salad which is where we grill a few vegetables and make a mix of them and give a free smoothie of your choice from a few selected ones.</p>
+                </div>
+                <div class="col-4">
+                    <img src="https://cdn.pixabay.com/photo/2016/05/25/10/43/hamburger-1414422__340.jpg"
+                        alt="" class="img-thumbnail">
+                    <p class="p-2"><strong>Burger And Fries</strong></p>
+                    <hr>
+                    <p>Our classic when we first opened were a burger and some fries which we have a variety for the patty. We have a steak, chicken, bacon, egg and even a veg patty. Every friday we give 50% off in this meal and give kids a free mini Burger and Fries meal. We gurantee we give this order in less than 10 minutes or mre per person.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT AND FOOTER -->
+        <footer id="main-footer" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center py-4">
+                        <h3 class="text-success">Chilli's</h3>
+                        <p>Copyright &copy;
+                            <span id="year"></span>
+                        </p>
+                        <button class="btn btn-info" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal fade text-dark" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contact Us</h5>
+                        <button class="close">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-body">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Enter Name" required>
+                            </div>
+                            <div class="form-body">
+                                <label for="name">Email</label>
+                                <input type="text" class="form-control" placeholder="Enter Email" required>
+                            </div>
+                            <div class="form-body">
+                                <label for="name">Message</label>
+                                <textarea type="text" class="form-control" placeholder="Enter Message"></textarea>
+                            </div>
+                            <button type="Submit" class="btn btn-info btn-block my-3">Submit</button>
+                            <div class="form-body">
+                                <p>Or Contact Us On</p>
+                                <p class="text-success"><i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp (123-456890)</p>
+                                <p class="text-info"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook (@chillis)</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- JQUERY | POPPER | JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
